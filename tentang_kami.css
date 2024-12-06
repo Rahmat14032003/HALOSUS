@@ -1,0 +1,25 @@
+.main-content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.cont{
+    height: 80%;
+    width: 90%;
+    margin-top: 80px;
+    border-radius:20px ;
+    text-align: center;
+    background-image: url(/asset/aboutus_bgjpg.jpg);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    aspect-ratio: 16/9;
+    background-size: cover;
+
+}
+.cont p{
+    text-align: center;
+}

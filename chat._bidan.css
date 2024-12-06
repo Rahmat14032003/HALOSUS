@@ -1,0 +1,76 @@
+.main-slides2{
+    height:calc(110vh + 200px);
+    width: 100%;
+}
+.box-slides{
+    height: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+}
+.isi{
+    position: relative;
+    bottom: 140px;
+    height: 250px;
+    width: 50%;
+    background:aquamarine;
+    border-radius: 10px;
+}
+.slides1{
+    align-self: flex-end;
+}
+.slides2{
+    align-self: flex-start;
+}
+.slides1 p{
+    font-weight: 900;
+    text-align: center;
+}
+.slides2 p{
+
+    font-weight: 900;
+    text-align: center;
+}
+@keyframes gerak{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateX(-5x);
+    }
+    100%{
+        transform: translateY(5px);
+    }
+}
+.slides1 button{
+    padding: 5px;
+    border-radius: 10px;
+    border:none;
+    background-image: linear-gradient(pink,plum);
+    cursor: pointer;
+    transition: all .7s ease-in-out;
+    /* animation: gerak infinite;
+    animation-duration: .9s;
+    animation-timing-function: linear; */
+}
+.slides2 button{
+    padding: 5px;
+    border-radius: 10px;
+    border:none;
+    background-image: linear-gradient(pink,plum);
+    cursor: pointer;
+    transition: all .7s ease-in-out;
+    /* animation: gerak infinite;
+    animation-duration: .9s;
+    animation-timing-function: linear; */
+
+}
+.btn-chat:hover{
+    padding: 6px;
+    background-image: linear-gradient(40deg,palevioletred,aqua);
+    color: white;
+    font-weight: 600;
+}
