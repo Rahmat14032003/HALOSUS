@@ -13,6 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Dosis:wght@200..800&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="penyakit.css">
     <style>
         *,
         html,
@@ -29,48 +32,48 @@
         --color-2: black;
         }
         header {
-            height: calc(110vh + 170px);
+            height: 90vh;
             width: 100%;
             background-image: linear-gradient(wheat,white);
         }
         .main-slides {
-        position: fixed;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        width: 100%;
-        z-index: 1;
-        background-image: url(/asset/navbg.jpg);
+            position: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 100%;
+            z-index: 1;
+            background-image: url(/asset/navbg.jpg);
         }
         img {
-        margin-right: auto;
-        height: 10vh;
-        margin-left: 20px;
+            margin-right: auto;
+            height: 10vh;
+            margin-left: 20px;
         }
         nav ul li {
-        display: inline-block;
+            display: inline-block;
         }
         nav ul li a {
-        text-decoration: none;
-        color: var(--color-2);
-        padding: 0 10px;
-        font-weight: 500;
-        cursor: pointer;
-        font-weight: bold;
+            text-decoration: none;
+            color: var(--color-2);
+            padding: 0 10px;
+            font-weight: 500;
+            cursor: pointer;
+            font-weight: bold;
         }
         a:hover,
         a:active {
-        color: rgb(51, 100, 235);
+            color: rgb(51, 100, 235);
         }
         .btn-login {
-        padding: 10px 15px;
-        margin: 0 10px;
-        border: none;
-        color: var(--color-1);
-        background-color: rgb(211, 27, 202);
-        border-radius: 5px;
-        cursor: pointer;
+            padding: 10px 15px;
+            margin: 0 10px;
+            border: none;
+            color: var(--color-1);
+            background-color: rgb(211, 27, 202);
+            border-radius: 5px;
+            cursor: pointer;
         }
         .btn-login:hover,
         .btn-login:active {
@@ -86,7 +89,7 @@
         }
         @media (max-width: 615px) {
         header {
-            height: calc(110vh + 150px);
+            height:200vh;
             width: 100%;
             background-image: url(/asset/forbg4.jpg);
             background-attachment: fixed;
@@ -94,7 +97,7 @@
             background-size: cover;
             background-repeat: no-repeat;
         }
-        section {
+        /* section {
             height: 100vh;
             background-image: url(/asset/forbg12.jpg);
             background-attachment: fixed;
@@ -102,7 +105,7 @@
             background-size: cover;
             background-repeat: no-repeat;
             z-index: 0;
-        }
+        } */
         .btn-bars {
             display: block;
         }
@@ -195,6 +198,32 @@
                 </ul>
             </nav>
             <button class="btn-login"><i class="fa-solid fa-arrow-right-to-bracket"></i></button>
+        </div>
+            <div class="wrapper">
+                <div class="isi content1">
+                  <h3>Demam</h3>  
+                  <br>
+                     <div class="sub-content1">
+                        <label for="button" class="btn-content1">
+                            <i class="fa-sharp fa-solid fa-stethoscope"></i>
+                        </label>
+                        <input type="checkbox" id="button">
+                        <div class="isi-sub-content1">
+                            <p>Demam adalah suatu kondisi di mana suhu tubuh meningkat melebihi batas normal, yakni sekitar 36,5°C hingga 37,5°C. Penyebab utama demam adalah infeksi, baik oleh virus, bakteri, jamur, maupun parasit, seperti pada flu atau infeksi saluran pernapasan. Selain itu, peradangan akibat kondisi autoimun seperti lupus atau artritis reumatoid, efek samping obat tertentu, gangguan hormon seperti tirotoksikosis, atau penyakit berat seperti kanker (terutama limfoma atau leukemia) juga dapat memicu demam. Gejala yang sering muncul meliputi peningkatan suhu tubuh, menggigil, berkeringat, tubuh lemas, sakit kepala, nafsu makan berkurang, hingga dehidrasi atau kebingungan, terutama pada anak-anak dan lansia. Demam terjadi karena hipotalamus, bagian otak yang mengatur suhu tubuh, menaikkan "set point" suhu tubuh akibat pengaruh pirogen yang dilepaskan selama infeksi atau peradangan. Untuk penanganan, demam dapat diringankan dengan mengonsumsi parasetamol atau ibuprofen untuk menurunkan suhu dan meredakan gejala, memperbanyak minum air untuk mencegah dehidrasi, beristirahat agar tubuh pulih, dan menggunakan kompres hangat untuk membantu menurunkan suhu. Namun, jika suhu tubuh mencapai 39°C, berlangsung lebih dari tiga hari, atau disertai gejala berat seperti sesak napas, nyeri dada, leher kaku, ruam, atau kejang, sebaiknya segera memeriksakan diri ke dokter. Meskipun demam sering kali menjadi tanda bahwa tubuh sedang melawan infeksi, kondisi ini harus dipantau dengan baik untuk mencegah komplikasi serius.</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="isi content2">
+                    <h3></h3>
+                </div>
+                <div class="isi content3">
+
+                </div>
+                <div class="isi content4">
+
+                </div>
+                <div class="isi content5">
+                </div>
         </div>
         </header>
         <footer>
