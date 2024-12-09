@@ -78,7 +78,7 @@
     display: block;
     background-color: aquamarine;
     left: 100%;
-    top: 460px;
+    top: 400px;
     text-align: left;
     transition: all 0.9s ease-in-out;
   }
@@ -90,7 +90,7 @@
     display: block;
     background-color: rgb(78, 76, 198);
     right: 100%;
-    top: 460px;
+    top: 400px;
     text-align: center;
     transition: all 0.9s ease-in-out;
   }
@@ -100,32 +100,32 @@
 }
 @media (max-width: 1441px) {
   .isi-sub-content1 {
-    top: 300px;
+    top: 220px;
   }
 }
 @media (max-width: 1024px) {
   .isi-sub-content1 {
-    top: 280px;
+    top: 210px;
   }
 }
 @media (max-width: 769px) {
   .isi-sub-content1 {
-    top: 190px;
+    top: 120px;
   }
 }
 @media (max-width: 426px) {
   .isi-sub-content1 {
-    top: 265px;
+    top: 180px;
   }
 }
 @media (max-width: 391px) {
   .isi-sub-content1 {
-    top: 221px;
+    top: 150px;
   }
 }
 @media (max-width: 376px) {
   .isi-sub-content1 {
-    top: 179px;
+    top: 120px;
   }
 }
 @media screen and(max-width:615px) {
