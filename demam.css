@@ -35,6 +35,9 @@
 
 
 @media(max-width:426px){
+    header{
+        height: 210vh;
+    }
     .textDemam{
         margin-top:100px ;
     }
