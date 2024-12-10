@@ -3,7 +3,6 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    min-height: 100vh;
 }
 .textDemam{
     min-height: 200px;
