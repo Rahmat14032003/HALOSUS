@@ -26,6 +26,21 @@
   align-items: center;
   flex-direction: column;
 }
+.btn-ensi{
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  background:pink;
+  transition: all.7s ease-in;
+}
+.btn-ensi a{
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+}
+.btn-ensi:hover{
+  scale: 1.2;
+  background-color:palegreen;
+}
 .content3 {
 }
 .content4 {
@@ -38,7 +53,13 @@
 }
 .content8 {
 }
-.isi-sub-content1,.isi-sub-content2 {
+/* .isi-sub-content1,.isi-sub-content2,.isi-sub-content3 {
+  position: fixed;
+  text-indent: 50px;
+  top: 400px;
+  display: none;
+}
+.isi-sub-content4,.isi-sub-content5,.isi-sub-content6,.isi-sub-content7{
   position: fixed;
   text-indent: 50px;
   top: 400px;
@@ -58,7 +79,7 @@
 #button-6,#button-7{
   display: none;
 }
-/* @media(max-width:5000px){
+@media(max-width:5000px){
     .isi-sub-content1{
         position: fixed;
         display: block;
@@ -71,14 +92,14 @@
     #button:checked ~ .isi-sub-content1{
         left: 0;
     }
-} */
+}
 @media (max-height: 5000px) {
   .isi-sub-content1 {
     position: fixed;
     display: block;
     background-color: aquamarine;
     left: 100%;
-    top: 415px;
+    top: 425px;
     text-align: left;
     transition: all 0.9s ease-in-out;
   }
@@ -90,12 +111,72 @@
     display: block;
     background-color: rgb(78, 76, 198);
     right: 100%;
-    top: 415px;
+    top: 425px;
     text-align: center;
     transition: all 0.9s ease-in-out;
   }
   #button-1:checked ~ .isi-sub-content2{
     right: 0;
+  }
+  .isi-sub-content3{
+    position: fixed;
+    display: block;
+    background-color: plum;
+    left: 100%;
+    top: 425px;
+    text-align: left;
+    transition: all 0.9s ease-in-out;
+  }
+  #button-2:checked ~ .isi-sub-content3{
+    left: 0;
+  }
+  .isi-sub-content4{
+    position: fixed;
+    display: block;
+    background-color: rgb(189, 41, 50);
+    left: 100%;
+    top: 425px;
+    text-align: left;
+    transition: all 0.9s ease-in-out;
+  }
+  #button-3:checked ~ .isi-sub-content4{
+    left: 0;
+  }
+  .isi-sub-content5{
+    position: fixed;
+    display: block;
+    background-color: rgb(131, 153, 34);
+    left: 100%;
+    top: 425px;
+    text-align: left;
+    transition: all 0.9s ease-in-out;
+  }
+  #button-5:checked ~ .isi-sub-content5{
+    left: 0;
+  }
+  .isi-sub-content6{
+    position: fixed;
+    display: block;
+    background-color: rgb(30, 159, 88);
+    left: 100%;
+    top: 425px;
+    text-align: left;
+    transition: all 0.9s ease-in-out;
+  }
+  #button-6:checked ~ .isi-sub-content6{
+    left: 0;
+  }
+  .isi-sub-content7{
+    position: fixed;
+    display: block;
+    background-color: rgb(30, 138, 192);
+    left: 100%;
+    top: 425px;
+    text-align: left;
+    transition: all 0.9s ease-in-out;
+  }
+  #button-7:checked ~ .isi-sub-content7{
+    left: 0;
   }
 }
 @media (max-width: 1441px) {
@@ -122,11 +203,30 @@
   .isi-sub-content1 {
     top: 190px;
   }
-  @media (max-width: 376px) {
-    .isi-sub-content1 {
-      top: 150px;
-    }
+}
+@media (max-width: 376px) {
+  .isi-sub-content1 {
+    top: 150px;
+  }
+  .isi-sub-content2{
+    top: 180px;
+  }
+  .isi-sub-content3{
+    top: 180px;
+  }
+  .isi-sub-content4{
+    top: 180px;
+  }
+  .isi-sub-content5{
+    top: 180px;
+  }
+  .isi-sub-content6{
+    top: 180px;
+  }
+  .isi-sub-content7{
+    top: 180px;
   }
 }
+ 
 @media screen and(max-width:615px) {
-}
+} */
