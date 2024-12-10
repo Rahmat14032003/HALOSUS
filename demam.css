@@ -23,7 +23,7 @@
 }
 @media (max-width:769px){
     header{
-        height: 150vh;
+        height: 210vh;
     }
     .textDemam{
         margin-top:100px ;
@@ -35,9 +35,6 @@
 
 
 @media(max-width:426px){
-    header{
-        height: 200vh;
-    }
     .textDemam{
         margin-top:100px ;
     }
@@ -48,9 +45,6 @@
 
 
 @media(max-width:376px){
-    header{
-        height:250vh;
-    }
     .Obatdemam{
         margin-top: 500px;
     }
@@ -58,9 +52,6 @@
 
 
 @media(max-width:321px){
-    header{
-        height: 250vh;
-    }
     .textDemam{
         margin-top:80px ;
     }
