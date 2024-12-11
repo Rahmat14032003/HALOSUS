@@ -16,6 +16,7 @@
         scroll-behavior: smooth;
         font-family: "Dosis", sans-serif;
         text-decoration: none;
+        /* outline: 1px solid; */
         }
         :root {
         --color-1: #ffff;
@@ -80,6 +81,7 @@
         @media (max-width: 615px) {
         header {
             height:250vh;
+            overflow: hidden;
             width: 100%;
             background-image: url(/asset/forbg4.jpg);
             background-attachment: fixed;
@@ -135,22 +137,21 @@
             flex-direction: column;
             align-items: center;
             text-align: center;
-            min-height: 100px;
-            gap: 0.5rem;
+            min-height: 10vh;
         }
         .footer-content p {
             margin: 0;
-            font-size: 0.9rem;
+            font-size: 0.8rem;
         }
 
         .social-icons {
             display: flex;
-            gap: 1rem;
+            gap: 0.5rem;
         }
 
         .social-icons a {
             color: rgb(0, 0, 0);
-            font-size: 1.2rem;
+            font-size: 1rem;
             transition: transform 0.3s ease, color 0.3s ease;
         }
 
@@ -201,7 +202,7 @@
     </header>
     <footer>
         <div class="footer-content">
-            <p>&copy; 2024 HALOSUS. All rights reserved.</p>
+            <p>&copy; 2024 klinik Bidan Delima. All rights reserved.</p>
             <P>Follow kami di:</P>
             <div class="social-icons">
               <a href="https://facebook.com" target="_blank" aria-label="Facebook">
