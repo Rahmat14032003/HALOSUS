@@ -18,8 +18,21 @@
     object-fit: contain;
     aspect-ratio: 16/9;
     background-size: cover;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
 
 }
+h1{
+    font-family:"Dancing Script", serif;
+}
+.cont .list-tentang-kami{
+    display: inline-block; 
+}
+.list-tentang-kami{
+    text-align: left;
+    max-width: 90%;
+    min-height:80% ;
+}
 .cont p{
-    text-align: center;
+    text-align: start;
+    text-indent: 20px;
 }

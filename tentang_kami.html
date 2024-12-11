@@ -14,6 +14,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="tentang_kami.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
     <title>Klinik Bidan Delima</title>
     <style>
         *,
@@ -25,6 +28,7 @@
             scroll-behavior: smooth;
             font-family: "Dosis", sans-serif;
             text-decoration: none;
+            /* outline: 2px solid; */
         }
         :root {
             --color-1: #ffff;
@@ -45,6 +49,9 @@
             width: 100%;
             z-index: 1;
             background-image: url(/asset/navbg.jpg);
+            box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.65);
+            -webkit-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.65);
+            -moz-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.55);
         }
         img {
             margin-right: auto;
@@ -89,7 +96,8 @@
         }
         @media (max-width: 615px) {
         header {
-            height: 90vh;
+            height: 200vh;
+            overflow: hidden;
             width: 100%;
             background-image: url(/asset/forbg4.jpg);
             background-attachment: fixed;
@@ -143,24 +151,24 @@
             justify-content: center;
             text-align: center;
             padding: 0 20px;
-            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.65);
+            -webkit-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.65);
+            -moz-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.55);
         }
         .footer-content {
             display: flex;
             flex-direction: column;
             align-items: center;
             text-align: center;
-            gap: 0.5rem;
         }
         .footer-content p {
             margin: 0;
-            font-size: 0.9rem;
-            letter-spacing: 0.05em;
+            font-size: 0.8rem;
         }
 
         .social-icons {
             display: flex;
-            gap: 1rem;
+            gap: 5px;
         }
 
         .social-icons a {
@@ -197,8 +205,24 @@
         </div>
         <div class="main-content">
                 <div class="cont">
-                    <h1>TENTANG KAMI</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi similique hic nostrum esse quasi recusandae quisquam aperiam voluptatibus corrupti ipsa, amet incidunt excepturi quaerat, veniam itaque distinctio ducimus facilis explicabo velit error molestiae placeat tempore at. Atque, iste est quas placeat provident accusantium quod odio fugit odit magni quo accusamus! Omnis molestias ipsa, nobis minima, excepturi ducimus nulla fugiat delectus enim illum nemo repellat. Tempore facere, ad, nam corrupti error repellendus placeat amet nobis veritatis sed expedita explicabo quibusdam eveniet facilis doloremque enim consectetur magnam nisi sequi similique? Ullam eaque delectus architecto laboriosam veritatis suscipit doloremque modi error, magnam distinctio!</p>
+                    <h1>TENTANG KAMI </h1>
+                    <ol type="1" class="list-tentang-kami">
+                        <li>sejarah berdirinya instansi</li>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quasi! Repellendus obcaecati sequi voluptatum recusandae ipsa esse quas autem inventore qui iste? Illum quibusdam ad ipsa ut commodi tempore aut amet rem laudantium impedit nam voluptatum placeat quis, iusto accusamus quos harum, ipsum repellat. Sed quo repellendus eius veritatis expedita vitae natus eum aspernatur fuga molestias explicabo debitis temporibus, alias commodi recusandae reprehenderit libero dolorem aliquid beatae, perspiciatis nostrum distinctio? Non enim iusto debitis labore perferendis. Aliquam, ducimus facilis. Assumenda explicabo perferendis, consectetur, temporibus earum odio cumque aliquam itaque neque ea molestias repellat, sunt ratione. Ex animi aperiam odit autem?</p>
+                        <li>Logo instansi</li>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi vel, aliquam libero modi beatae iure quis, enim in quasi earum doloremque? Voluptatum blanditiis voluptas modi dolor neque explicabo aliquid quibusdam, tempore tempora et dolorum qui, minus magnam esse eligendi!</p>
+                        <li>Visi dan Misi</li>
+                            <ol type="A" class="list-tentang-kami">
+                                <li>Visi</li>
+                                    <ol type="a" class="list-tentang-kami">
+                                        <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem assumenda excepturi, sint, provident omnis, perferendis rerum obcaecati exercitationem minima nemo consequuntur.</p></li>
+                                    </ol>
+                                <li>Misi</li>
+                                    <ol type="a" class="list-tentang-kami">
+                                        <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem assumenda excepturi, sint, provident omnis, perferendis rerum obcaecati exercitationem minima nemo consequuntur.</p></li>
+                                    </ol>
+                            </ol>
+                    </ol>
                 </div> 
         </div>
         </header>
