@@ -3,19 +3,42 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 10px;
 }
 .textDemam{
+    background-image: url(/asset/aboutus_bgjpg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 80%;
+    border-radius: 10px;
+    background-position: center;
     min-height: 200px;
     margin-top: 100px;
 }
+.Obatdemam{
+    background-image: url(/asset/aboutus_bgjpg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    max-width:80% ;
+    min-height: 200px;
+}
+.Obatdemam h1{
+    font-weight: 900;
+    word-wrap: break-word;
+    color: white;
+}
 .Obatdemam p{
     margin-bottom: 150px;
-    min-height: 200px;
     text-indent: 50px;
+    word-wrap: break-word;
 }
 .textDemam h1{
-    font-weight: 700;
+    font-weight: 900;
     word-wrap: break-word;
+    color: white;
 }
 .textDemam p{
     text-indent: 50px;
